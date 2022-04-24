@@ -6,6 +6,7 @@ import com.mileageReimbursment.model.Employee;
 
 public class JobRole {
 	
+	
 	// Create
 	public <S extends Employee> S addRecord(Employee employee);
 		

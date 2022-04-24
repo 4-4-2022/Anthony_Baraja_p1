@@ -22,5 +22,6 @@ public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
 	
 	// Delete
 	public void delete(Employee employee);
+	
 
 }
