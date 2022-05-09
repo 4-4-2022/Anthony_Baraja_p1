@@ -12,11 +12,10 @@ import javax.persistence.Table;
 public class Request {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Integer id;
+	private String id;
 	
 	@Column(name="employee_id")
-	private Integer employeeId;
+	private String employeeId;
 	
 	@Column(name="request_amount")
 	private Double requestAmount;
@@ -30,19 +29,19 @@ public class Request {
 	@Column(name="bill_status")
 	private Boolean billStatus;
 
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
-	public Integer getEmployeeId() {
+	public String getEmployeeId() {
 		return employeeId;
 	}
 
-	public void setEmployeeId(Integer employeeId) {
+	public void setEmployeeId(String employeeId) {
 		this.employeeId = employeeId;
 	}
 

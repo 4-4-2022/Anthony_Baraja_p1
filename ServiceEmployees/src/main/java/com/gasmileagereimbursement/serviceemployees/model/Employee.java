@@ -11,8 +11,6 @@ public class Employee {
 	
 	@Id
 	private String id;
-	//@GeneratedValue(strategy=GenerationType.IDENTITY)
-	//private Integer id;
 	
 	@Column(name="fname")
 	private String fname;
