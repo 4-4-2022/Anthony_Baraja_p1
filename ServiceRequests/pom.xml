@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gasmileagereimbursement</groupId>
-	<artifactId>ServiceEmployees</artifactId>
+	<artifactId>ServiceRequests</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ServiceEmployees</name>
-	<description>Contain Employees Service DTO</description>
+	<name>ServiceRequests</name>
+	<description>Contain Requests Service DTO</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
@@ -42,8 +42,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		
 	</dependencies>
 
 	<build>

@@ -2,18 +2,17 @@ package com.gasmileagereimbursement.serviceemployees.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.Table;
 import javax.persistence.Id;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+import javax.persistence.Table;
 
 @Entity
 @Table(name="employees")
 public class Employee {
 	
 	@Id
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
-	private Integer id;
+	private String id;
+	//@GeneratedValue(strategy=GenerationType.IDENTITY)
+	//private Integer id;
 	
 	@Column(name="fname")
 	private String fname;
@@ -24,11 +23,11 @@ public class Employee {
 	@Column(name="job_role")
 	private String jobRole;
 
-	public Integer getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
