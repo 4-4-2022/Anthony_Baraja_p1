@@ -5,6 +5,8 @@ Employees are able to view and send their reimbursement request to the API.
 Managers are able to view and approve their employees request.
 Administrators are able to view and bill the request to the respective employee.
 
-Datasource #1: Employees (employees)
-Datasource #2: Management (managementEmployees)
-Datasource #3: Reimbursement Request (request)
+Datasource #1: Employees - REST Service
+
+Datasource #2: Reimbursement Request - REST Service
+
+Datasource #3: Management - SOAP (Work in Progress)
