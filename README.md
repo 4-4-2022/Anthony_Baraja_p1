@@ -5,7 +5,6 @@
 Employees are able to view and send their reimbursement request to the API. 
 Managers are able to view and approve their employees request. 
 Administrators are able to view and bill the request to the respective employee.
-
 ## Technologies Used
 
 * Java - version 8
@@ -54,4 +53,3 @@ To-do list:
 ## Contributor
 
 > Anthony Baraja
-
